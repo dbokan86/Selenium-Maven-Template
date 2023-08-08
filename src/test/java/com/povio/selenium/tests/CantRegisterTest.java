@@ -16,13 +16,13 @@ public class CantRegisterTest extends BaseTest {
         register.signupagain();
         register.newuser("dragoslav", "dragoslav@gmail.com", "milenkovic", "milenkovic");
         register.signinulazak();
-        try{
+        try {
             Thread.sleep(2000);
-        }catch(InterruptedException e){
+        } catch(InterruptedException e) {
             e.printStackTrace();
         }
         register.signIn("dragoslav@gmail.com", "milenkovic");
         register.deleteacc();
-        driver.switchTo( ).alert( ).accept();
+        driver.switchTo().alert().accept();
     }
 }
