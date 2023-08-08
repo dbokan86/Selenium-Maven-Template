@@ -1,4 +1,4 @@
-package com.lazerycode.selenium.page_objects;
+package com.povio.selenium.page_objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
